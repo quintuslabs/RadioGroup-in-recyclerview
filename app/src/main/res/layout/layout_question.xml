@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_button_option_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:elevation="4dp"
+            android:textColor="@color/radiobuttonstate" />
+
+        <RadioButton
+            android:id="@+id/radio_button_option_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:elevation="4dp"
+            android:textColor="@color/radiobuttonstate" />
+
+        <RadioButton
+            android:id="@+id/radio_button_option_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:elevation="4dp"
+            android:textColor="@color/radiobuttonstate" />
+
+        <RadioButton
+            android:id="@+id/radio_button_option_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:elevation="4dp"
+            android:textColor="@color/radiobuttonstate" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_view_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="#000000" />
+
+</LinearLayout>
